@@ -1,0 +1,84 @@
+/* ######################################################
+#########################################################
+#########  E S T I L O  D E  L A S  C A J A S ###########
+#########################################################
+#########################################################*/ 
+* {
+    font-family: 'Lobster';
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+/* #############################################
+>>>>>>>>>>>>>>>> IMAGEN DE FONDO 
+*/
+body {
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+}
+.contenedor{
+    position: relative;
+}
+/* ###########################################################
+>>>>>>>>>>>>>>>> BARRA NAVEGADORA [ TEAM SCORPION ]
+##############################################################
+*/
+.B-Nav{
+    background-color: transparent;
+    color: white;
+    position: relative;
+}
+#TeamScorpion{
+    text-shadow: 2px 3px 3px #32d512;
+    font-family: 'Lobster';
+    font-weight: 100;
+    font-size: 100px;
+}
+#TextBuscador{
+    margin-left: 25%;
+}
+#buscador{
+    margin-left: 0%;
+    
+}
+/* ###########################################################
+>>>>>>>>>>>>>>>> BARRA NAVEGADORA [ MENU ]
+##############################################################
+*/
+.B-Nav2{
+    background-color: transparent;
+    position: relative;
+    top: 0;    
+}
+#PageMenu {
+    text-shadow: 2px 3px 3px #32d512;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#114700;
+}
+#separador{
+    background-color: #32d512;
+    height: 5px;
+    opacity: 0.3;
+}
+#barraSeparadoraMenu{
+    background-color: transparent;
+    color: transparent;
+    height: 10px;
+    opacity: 0.3;
+}
+
+
+/* #####################################################################
+########################################################################
+############ A P A R T A D O  P A G I N A  J U E G O S #################
+########################################################################
+##################################################################### */
+#tablaJuegos{
+    margin:5%;
+    color:aliceblue;
+}
+#ahorcado #sopaDeLetra #sudoku{
+    width: 150px;
+    height: 150px;
+}
